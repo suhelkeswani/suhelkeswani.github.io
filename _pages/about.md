@@ -10,7 +10,7 @@ redirect_from:
   - /home/
 ---
 
-First-year/sophomore-standing student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on artifical intelligence and media with a minor in music. 
+Second-year/junior-standing student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on artifical intelligence and media with a minor in music. 
 
 Interested in sound and music computing, computer graphics, cryptography, machine learning, and applied mathematics.
 
