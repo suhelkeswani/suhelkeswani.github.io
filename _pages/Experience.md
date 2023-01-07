@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-<u>2022-2023</u>
+<u>2022</u>
 
 : **Georgia Tech VIP Program: Robotic Musicianship** -- *Undergraduate Researcher*
-- Selected to work with the Robotic Musicianship Vertically Integrated Project team under Dr. Gil Weinberg
-starting in the Fall 2022 semester
+- Developed procedural music composition patch in Max/MSP using Markov Chains on MIDI data
+- Selected to work under Dr. Gil Weinberg with Georgia Tech’s world class robotic Marimba player, Shimon
 
 ---
 

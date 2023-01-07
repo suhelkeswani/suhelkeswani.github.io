@@ -12,8 +12,8 @@ redirect_from:
 <u>2021-2024</u>
 
 : **B.S. Computer Science, Minor in Music** -- *Georgia Institute of Technology, Atlanta, GA*
-- 3.9 GPA (Dean's List)
-- threads (areas of concentration): Intelligence and Media
+- 3.91 GPA (Dean's List)
+- threads (areas of concentration): Systems/Architecture and Media
 - activities: Jazz Combo (1st chair guitarist and soloist)
 
 ---
@@ -21,15 +21,16 @@ redirect_from:
 <u>2017-2021</u>
 
 : **High School Diploma** -- *Irvington High School, Fremont, CA*
-- 3.85 GPA
-- activities: Jazz Ensemble, Vex Robotics, Water Polo
+- activities: Jazz Ensemble, VEX Robotics
 
 ---
 
 ## Relevent Coursework
+- Computer Organization and Programming
 - Data Structures and Algorithms
+- Objects and Design
 - Object-Oriented Programming
+- Applied Combinatorics
 - Linear Algebra
 - Discrete Math
-- Calculus 1 & 2
-- Music Theory 1
+- Calculus 1, 2 & 3
