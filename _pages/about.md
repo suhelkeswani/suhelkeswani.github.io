@@ -16,4 +16,4 @@ Interested in computer graphics, sound and music computing, immersive media, int
 
 Avid musician and guitarist in the Georgia Tech School of Music Jazz program.
 
-Feel free to [take a look at my resume](/resume.md).
+Feel free to [take a look at my resume](/resume).
