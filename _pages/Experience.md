@@ -9,7 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-<u>2022</u>
+<u>Summer 2023</u>
+
+: **Grokker** -- *Software Engineering Intern*
+- Developing for web platform in Node.js to analyze and respond to user events from MongoDB collections
+
+---
+
+<u>Fall 2022</u>
 
 : **Georgia Tech VIP Program: Robotic Musicianship** -- *Undergraduate Researcher*
 - Developed procedural music composition patch in Max/MSP using Markov Chains on MIDI data
@@ -17,7 +24,7 @@ redirect_from:
 
 ---
 
-<u>2020</u>
+<u>Summer 2020</u>
 
 : **Santa Clara University Laptop Orchestra (SCLOrk)** -- *Open-Source Development & Research Intern*
 - Edited, optimized, documented, and [published double bass synthesizer model definition](https://github.com/SCLOrkHub/SCLOrkSynths/blob/master/SynthDefs/bass/doubleBass.scd) with Dr. Bruno Ruviaro

@@ -10,12 +10,10 @@ redirect_from:
   - /home/
 ---
 
-Second-year/junior-standing student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on systems/architecture and media with a minor in music.
+Third-year student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on devices and media with a minor in music. Currently developing for web platforms as a SWE intern at Grokker. 
 
-Interested in computer graphics, sound and music computing, interactive computing, computer systems, computer architecture, high-performance computing, machine learning, and applied mathematics.
+Interested in computer graphics, sound and music computing, immersive media, interactive computing, and applied mathematics.
 
-Currently working with Dr. Gil Weinberg in the Robotic Musicianship Vertically Integrated Project at Georgia Tech. Previously worked with Dr. Bruno Ruviaro at Santa Clara University on synthesizer definitions programmed in SuperCollider.
+Avid musician and guitarist in the Georgia Tech School of Music Jazz program.
 
-Jazz musician and guitarist with the Georgia Tech School of Music.
-
-Feel free to [take a look at my CV](/cv.md).
+Feel free to [take a look at my resume](/resume.md).
