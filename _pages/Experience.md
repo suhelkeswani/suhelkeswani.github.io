@@ -20,7 +20,7 @@ redirect_from:
 
 : **Georgia Tech VIP Program: Robotic Musicianship** -- *Undergraduate Researcher*
 - Developed procedural music composition patch in Max/MSP using Markov Chains on MIDI data
-- Selected to work under Dr. Gil Weinberg with Georgia Tech’s world class robotic Marimba player, Shimon
+- Selected to work under Dr. Gil Weinberg with [Georgia Tech’s world class robotic Marimba player, Shimon](https://www.tennessean.com/story/entertainment/music/2022/03/23/nashville-pop-trio-coin-and-robot-make-debut-jimmy-kimmel-live/7141265001/)
 
 ---
 

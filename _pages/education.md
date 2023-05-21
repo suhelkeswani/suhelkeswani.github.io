@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<u>2021-2024</u>
+<u>2021-2025</u>
 
 : **B.S. Computer Science, Minor in Music** -- *Georgia Institute of Technology, Atlanta, GA*
 - 3.92 GPA (Faculty Honors)
