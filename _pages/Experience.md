@@ -12,7 +12,7 @@ redirect_from:
 <u>Summer 2023</u>
 
 : **Grokker** -- *Software Engineering Intern*
-- Developing for web platform in Node.js to analyze and respond to user events from MongoDB collections
+- Re-architecting and implementing micro-services with Event-Driven Architecture using Kafka, Node.js, and MongoDB
 
 ---
 

@@ -10,7 +10,7 @@ redirect_from:
   - /home/
 ---
 
-Third-year student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on devices and media with a minor in music. Currently developing for web platforms as a SWE intern at Grokker. 
+Third-year student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on devices and media with a minor in music. Currently revamping micro-services with Event-driven architecture using Kafka as a SWE intern at Grokker.  
 
 Interested in computer graphics, sound and music computing, immersive media, interactive computing, and applied mathematics.
 
