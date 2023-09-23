@@ -14,7 +14,7 @@ redirect_from:
 : **B.S. Computer Science, Minor in Music** -- *Georgia Institute of Technology, Atlanta, GA*
 - 3.92 GPA (Faculty Honors)
 - threads (areas of concentration): Devices and Media
-- activities: Jazz Combo (1st chair guitarist and soloist)
+- activities: Jazz Combo (principal guitarist and soloist)
 
 ---
 
@@ -25,6 +25,9 @@ redirect_from:
 ---
 
 ## Relevent Coursework
+- CS 4590: Principles of Computer Audio
+- CS 3510: Design & Analysis of Algorithms
+- CS 3251: Computer Networking
 - CS 3451: Computer Graphics
 - CS 2200: Computer Systems and Networks
 - CS 2110: Computer Organization and Programming

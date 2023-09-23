@@ -10,10 +10,8 @@ redirect_from:
   - /home/
 ---
 
-Third-year student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on devices and media with a minor in music. Currently revamping micro-services with Event-driven architecture using Kafka as a SWE intern at Grokker.  
+Hi! I'm a third-year student at the Georgia Institute of Technology pursuing a B.S. in Computer Science focused on devices and media with a minor in music. Outside of school, I’m an avid musician and guitarist with the Georgia Tech School of Music Jazz Program.
 
-Interested in computer graphics, sound and music computing, immersive media, interactive computing, and applied mathematics.
+I'm interested in solving problems to create novel experiences and expand the reach of what’s possible within the interactive computing space. My areas of interest include sound and music computing, computer graphics, immersive media, human-computer interaction, and applied mathematics.
 
-Avid musician and guitarist in the Georgia Tech School of Music Jazz program.
-
-Feel free to [take a look at my resume](/resume).
+I’m always excited to meet new people and work on interesting projects. Feel free to to [take a look at my resume](/resume) and reach out!
