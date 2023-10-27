@@ -33,4 +33,3 @@ redirect_from:
 - Edited, optimized, documented, and [published Frequency Modulation (FM) double bass synthesizer model definition](https://github.com/SCLOrkHub/SCLOrkSynths/blob/master/SynthDefs/bass/doubleBass.scd) with Dr. Bruno Ruviaro
 to [SCLOrkSynths code repository](https://github.com/SCLOrkHub/SCLOrkSynths), an official SuperCollider extension
 
----8./
