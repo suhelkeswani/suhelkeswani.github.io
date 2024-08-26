@@ -53,3 +53,17 @@ li {
 article{
     margin-left: 40px 
 }
+.caption {
+    display: block;
+    text-align: center;   /* Centers the text */
+    font-style: italic;   /* Italicizes the text */
+    margin-top: 10px;     /* Adds some space above the caption */
+}
+
+.image-container {
+    text-align: center; /* Centers images horizontally */
+}
+
+img {
+    display: inline-block; /* Ensures images are treated as inline elements */
+}
