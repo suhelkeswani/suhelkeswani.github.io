@@ -24,37 +24,43 @@
 
         <section id="introduction">
             <h2>introduction</h2>
-            <p>Spatial audio allows us to localize sound source positions in 3D which provides a more immersive listening experience. For example, surround sound is one way to implement spatial audio. A set of speakers is placed around listeners (e.g. 5 speakers and 1 subwoofer in 5.1) where each speaker is fed audio from a different channel to reproduce sound we perceive as localized. However, surround sound requires significant hardware given the numerous channels. In comparison, stereo audio which contains just left and right channels, is more common.</p>
+            <p>Spatial audio allows us to localize sound source positions in 3D, thus providing a more immersive listening experience. For example, surround sound is one way to implement spatial audio. A set of speakers is placed around listeners (e.g. 5 speakers and 1 subwoofer with 5.1) where each speaker is fed audio from a different channel to reproduce sound we perceive as localized. However, surround sound requires significant hardware given the numerous channels. In comparison, stereo audio  contains just left and right channels and is more common.</p>
 
-            <p> Binaural 3D spatialization creates stereo spatial audio from a source channel and a location in space relative to the listener (i.e. azimuth, elevation, and distance). Through headphones, this stereo audio contains appropriate Intra-aural Level Differences (ILDs) and Intra-aural Time Differences (ITDs) for us to perceive this as sound in space. Additionally, the anatomy of our outer ear effects the frequency spectrum of sound waves as they propagate into our inner ear which provides additional cues used in localization. Taken together, we can model the characteristics of sound at a point in space propagating through air to our left and right inner ears as distinct Linear Time-Invariant systems known as Head-Related Transfer Functions (HRTFs). Thus, with the correct FIR filter coefficients, we can simply use convolution with digital audio signals to get left and right stereo channels!</p>
+            <p> Binaural 3D spatialization creates stereo spatial audio from a source channel and a location in space relative to the listener (i.e. azimuth, elevation, and distance). Through headphones, this stereo audio contains appropriate Intra-aural Level Differences (ILDs) and Intra-aural Time Differences (ITDs) for us to perceive this as sound in space. Additionally, the anatomy of our outer ear affects the frequency spectrum of sound as it propagates into our inner ear and provides additional cues used in localization. Taken together, we can model the characteristics of sound at a point in space propagating through air to our left and right inner ears as distinct Linear Time-Invariant systems known as Head-Related Transfer Functions (HRTFs). Thus, with the correct FIR filter coefficients, we can simply use convolution with digital audio signals to get left and right stereo channels.</p>
 
             <p>Using these methods, this project spatializes audio in 3D when used with headphones through the form of a Digital Audio Workstation plugin developed with C++ and the JUCE framework. Before developing this plugin, I also plan to develop and test a prototype in MatLab. The overall functionality of the plugin will be as such:</p>
             <ol>
-                <li>Take in azimuth, elevation, and distance parameters for a sound source relative to listening position in a GUI</li>
+                <li>Take in azimuth, elevation, and distance parameters for a sound source relative to the listening position in a GUI</li>
                 <li>Spatialize audio signal in realtime by convolving with the appropriate FIR filters for the left and right channels</li>
             </ol>
         </section>
 
         <section id="HRIRs">
             <h2>measuring HRIRs</h2>
-            <p>Choosing the correct filter coefficients is crucial for effectively spatializing audio. These coefficients are equivalent to Head-Related Impulse Responses (HRIRs) recorded in experiments.</p>
+            <p>Choosing the correct filter coefficients is crucial to effectively spatialize audio. These coefficients are equivalent to Head-Related Impulse Responses (HRIRs) recorded in experiments.</p>
 
             <div class="image-container">
                 <img src="media/HRTF_lab.png" alt="Lab setup to measure HRIRs" width="550" height="454">
                 <span class="caption">HRIR measurement setup in an anechoic chamber. <a href="https://www.semanticscholar.org/paper/Personalized-head-related-transfer-function-and-Pec-Bujacz/cdce040847148af62601ae0a3f6bfbc900dafe71/figure/4">(source)</a></span>
             </div>
 
-            <p>By placing microphones into a human subject's ears, and playing impulses across a speaker array, a set of HRIRs are recorded for each ear across multiple positions around the field of the subject. An anechoic chamber may be used to eliminate any reverb or room disturbances otherwise present in impulse responses. Given that the anatomy and placement of every human ear is different, HRIRs will differ across subjects.</p>
+            <p>By placing microphones in a human subject's ears and playing impulses across a speaker array, a set of HRIRs are recorded for each ear across multiple positions in space around the field of the subject. An anechoic chamber may be used to eliminate any reverb or room disturbances otherwise present in impulse responses. Given that the anatomy and placement of every human ear is different, HRIRs will differ across subjects.</p>
 
-            <p>This large set of impulse responses and the manner in which they were recorded are then stored digitally in a Spatially Oriented Format for Acoustics (SOFA) file. Datasets of these HRIRs have been published online which we can use for this project.</p>
+            <p>This large set of impulse responses and the manner in which they were recorded is then stored digitally in a Spatially Oriented Format for Acoustics (SOFA) file. Datasets of these HRIRs have been published online which we will use for this project.</p>
 
         </section>
+
+        <section id="matlab">
+            <h2>prototyping with MatLab</h2>
+
 
         <section id="references">
             <h2>references</h2>
             <p><a href="https://www.youtube.com/watch?v=A7DwT5Aa1dQ&t=1759s">"Allen Lee (Independent) - Building a Spatial Audio Plugin"</a></p>
             <p><a href="https://www.mathworks.com/help/audio/ug/read-analyze-and-process-sofa-files.html">"Read, Analyze and Process SOFA Files"</a></p>
         </section>
+
+        <span><i>Thanks to Dr. Aaron Lanterman for mentoring and supporting this project.</i></span>
 
         <footer>
             <p></p>
